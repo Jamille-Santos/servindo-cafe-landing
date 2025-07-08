@@ -47,6 +47,7 @@ Many people are unaware of interesting facts about coffee and miss out on exclus
    ```bash
    git clone https://github.com/Jamille-Santos/servindo-cafe-landing.git
    cd servindo-cafe-landing
+   npm install
    ```
 
 2. **Install dependencies:**
@@ -56,13 +57,15 @@ Many people are unaware of interesting facts about coffee and miss out on exclus
    yarn install
    ```
 
-3. **Configure environment variables:**
-   - Create a `.env.local` file and add your API URL:
+3. **Running**
+   - Clone and run the API project from:
+
      ```
-     NEXT_PUBLIC_API_URL=https://servindo-cafe-api.vercel.app
+     https://github.com/Jamille-Santos/servindo-cafe-api
+     (run npm install && npm start in the API project)
      ```
 
-4. **Run the development server:**
+4. **Run the landing page:**
    ```bash
    npm run dev
    # or
@@ -106,14 +109,11 @@ styles/
 
 ![Landing page screenshot](public/images/screencapture-localhost-3001-servindocafe.png)
 
-[![Deploy on Vercel](https://vercel.com/button)](https://servindo-cafe.vercel.app)
-
 ---
 
 ## About
 
 - **API repository:** [API Repo Link](https://github.com/Jamille-Santos/servindo-cafe-api)
-- **Live site:** [https://servindo-cafe.vercel.app](https://servindo-cafe.vercel.app)
 - **LinkedIn presentation:** [LinkedIn Post Link](https://www.linkedin.com/posts/jamille-santos-155722208_/)
 - **Topics:** `nextjs`, `tailwindcss`, `typescript`
 
