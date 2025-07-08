@@ -1,40 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Servindo Café ☕
+
+## Context
+
+Servindo Café is a landing page that consumes a custom API created in the M4 mini-project. The API provides coffee-related content, such as images, facts, and discount codes, aiming to promote coffee culture and offer exclusive deals to coffee lovers.
+
+### Problem Statement
+
+Many people are unaware of interesting facts about coffee and miss out on exclusive discounts. This project solves that by presenting curated coffee content in an attractive, single-page website, making information and offers easily accessible.
+
+---
+
+## Technologies Used
+
+- **Next.js** (v[^15.3.4]) + **TypeScript**
+- **React** (v[^19.1.0])
+- **TailwindCSS** (v[^4.1.11])
+- **Framer Motion** (for animations)
+- **Heroicons** (for icons)
+- **Google Fonts**: Nunito & Great Vibes
+
+---
+
+## Features
+
+- Consumes 3+ GET routes from the custom API
+- Each API route is displayed in a separate section
+- Responsive and modern layout with TailwindCSS
+- Custom fonts and color palette inspired by coffee
+- Smooth scroll navigation between sections
+- Animated elements and hover/focus effects
+- No ready-made component libraries used
+- Clean, componentized codebase
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js (v[v18+])
+- npm or yarn
+
+### Installation
+
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/Jamille-Santos/servindo-cafe-landing.git
+   cd servindo-cafe-landing
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Configure environment variables:**
+   - Create a `.env.local` file and add your API URL:
+     ```
+     NEXT_PUBLIC_API_URL=https://servindo-cafe-api.vercel.app
+     ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. **Open http://localhost:3000 in your browser.**
+
+---
+
+## API Reference
+
+This project consumes the API developed in the [M4 Mini Project](https://github.com/Jamille-Santos/servindo-cafe-api).
+
+- `/api/image` - Returns a coffee-related image
+- `/api/facts` - Returns interesting coffee facts
+- `/api/discount` - Returns a discount code
+
+---
+
+## Project Structure
+
+```
+components/
+  Navbar.tsx
+  ImageSection.tsx
+  FactsSection.tsx
+  DiscountSection.tsx
+  Footer.tsx
+pages/
+  index.tsx
+  _app.tsx
+  _document.tsx
+styles/
+  globals.css
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Demo
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![Landing page screenshot](public/demo-screenshot.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+[![Deploy on Vercel](https://vercel.com/button)](https://[your-vercel-link])
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## About
 
-To learn more about Next.js, take a look at the following resources:
+- **API repository:** [API Repo Link](https://github.com/Jamille-Santos/servindo-cafe-api)
+- **Live site:** [https://servindo-cafe.vercel.app](https://servindo-cafe.vercel.app)
+- **LinkedIn presentation:** [LinkedIn Post Link](https://www.linkedin.com/posts/jamille-santos-155722208_/)
+- **Topics:** `nextjs`, `tailwindcss`, `typescript`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## How to Contribute
 
-## Deploy on Vercel
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feat/amazing-feature`)
+3. Commit your changes (`git commit -m ":sparkles: Add amazing feature"`)
+4. Push to the branch (`git push origin feat/amazing-feature`)
+5. Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## License
+
+[MIT](LICENSE)
+
+---
+
+## Acknowledgements
+
+- Coffee lovers everywhere ☕
+- Jamille Santos, [Your LinkedIn](https://www.linkedin.com/in/jamille-santos-155722208/)
+
+---
+
+## Presentation
+
+- The project was presented on LinkedIn: [LinkedIn Post](https://www.linkedin.com/posts/jamille-santos-155722208_/)
+- The presentation covers the problem, solution, development process, and a demo of the system.
+
+---
