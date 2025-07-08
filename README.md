@@ -104,7 +104,7 @@ styles/
 
 ## Demo
 
-![Landing page screenshot](screencapture-localhost-3001-servindocafe.png)
+![Landing page screenshot](images/screencapture-localhost-3001-servindocafe.png)
 
 [![Deploy on Vercel](https://vercel.com/button)](https://servindo-cafe.vercel.app)
 
