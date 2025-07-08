@@ -77,9 +77,9 @@ Many people are unaware of interesting facts about coffee and miss out on exclus
 
 This project consumes the API developed in the [M4 Mini Project](https://github.com/Jamille-Santos/servindo-cafe-api).
 
-- `/api/image` - Returns a coffee-related image
-- `/api/facts` - Returns interesting coffee facts
-- `/api/discount` - Returns a discount code
+- `/api/coffees/random-image` - Returns a coffee-related image
+- `/api/coffees/facts` - Returns interesting coffee facts
+- `/api/reservations/discount-code` - Returns a discount code
 
 ---
 
@@ -104,9 +104,9 @@ styles/
 
 ## Demo
 
-![Landing page screenshot](public/demo-screenshot.png)
+![Landing page screenshot](screencapture-localhost-3001-servindocafe.png)
 
-[![Deploy on Vercel](https://vercel.com/button)](https://[your-vercel-link])
+[![Deploy on Vercel](https://vercel.com/button)](https://servindo-cafe.vercel.app)
 
 ---
 
@@ -138,7 +138,7 @@ styles/
 ## Acknowledgements
 
 - Coffee lovers everywhere ☕
-- Jamille Santos, [Your LinkedIn](https://www.linkedin.com/in/jamille-santos-155722208/)
+- Jamille Santos, (https://www.linkedin.com/in/jamille-santos-155722208/)
 
 ---
 
