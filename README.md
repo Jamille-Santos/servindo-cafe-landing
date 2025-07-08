@@ -144,7 +144,7 @@ styles/
 
 ## Presentation
 
-- The project was presented on LinkedIn: [LinkedIn Post](https://www.linkedin.com/posts/jamille-santos-155722208_/)
+- The project was presented on LinkedIn: [LinkedIn Post](https://www.linkedin.com/posts/jamille-santos-155722208_nextjs-tailwindcss-typescript-activity-7348479430312243200-syKF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADTJxFEBVPA48IINozuspHJc1AYl8ULM320)
 - The presentation covers the problem, solution, development process, and a demo of the system.
 
 ---
